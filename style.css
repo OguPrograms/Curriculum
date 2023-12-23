@@ -1,0 +1,132 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#headerBar {
+    border: 0px;
+    background-color: black;
+    position: fixed;
+    top: 45px;
+    left: 1%;
+    right: 1%;
+    height: 1px;
+}
+.lineaIdioma{
+    border: 1px;
+    background-color: black;
+    height: 17px;
+    width: 1px;
+    margin: 2px;
+}
+.insideHeader{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    /*animation-name: onStart;
+    animation-duration: 2s;*/
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.presentacion1{
+    margin-left: 20%;
+    margin-right: 50%;
+}
+.presentacion2{
+    margin-right: 20%;
+    margin-left: 50%;
+}
+.presentation{
+    margin-top: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#article1{
+    display: flex;
+}
+#imgHugo1{
+    left: 40%;
+    width: 45%;
+}*/
+.estudiosRealizados{
+    display: flex;
+    justify-content: space-evenly;
+}
+.estudioIndividual{
+    background-color: white;
+    margin: 2%;
+    border-radius: 6px;
+}
+#TE{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+h3, h4{
+    text-align: center;
+}
+h1{
+    margin-left: 2%;
+    font-size: 20px;
+}
+.language{
+    display: flex;
+    margin-top: 15px;
+    margin-right: 2%;
+
+}
+button{
+    background-color: white;
+    border: 0px;
+    transition-duration: 0.4s;
+    border-radius: 15px;
+    height: 20PX;
+}
+
+/*ANIMATIONS*/
+button:hover{
+    background-color: rgb(87, 87, 87);
+    color: white;
+    cursor: pointer;
+}
+/*@keyframes onStart {
+    0% {opacity: 0%}
+    100% {opacity: 100%;}
+}*/
+
+/*SCROLL BAR*/
+body::-webkit-scrollbar {
+    width: 6px;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 20px;
+}
+
+/*PARALAX*/
+.parallaxLine{
+    background-image: url("img/parallaxLine.jpg");
+    height: 10;
+    min-height: 3px;
+    border-radius: 2px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.spaceBetween{
+    height: 100px;
+}
+.estudios{
+    background-image: url("img/parallexEstudios.jpg");
+    min-height: 3px;
+    border-radius: 2px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: whitesmoke;
+    border-radius: 6px;
+}
