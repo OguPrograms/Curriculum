@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <title>Hugo Sansegundo</title>
@@ -18,32 +19,40 @@
         </div>
         <hr id="headerBar">
     </header>
+    <div class="spaceBetween"></div>
     <article id="presentation">
-        <div class="presentation1">
-            <img id="imgHugo1" src="img/img1.png" alt="Imagen mia (Hugo Sansegundo)">
-        </div>
-        <div class="presentation2">
-            <h2>Hugo Sansegundo Costantini</h2>
-            <p>Desarrollador Web y mucho más</p>
-            <!--<p>Me considero una persona creativa, me encant idear...</p>
-            <p>Se me da bien la comunicación</p>-->
+        <div id="presentationBox">
+            <div class="presentation1">
+                <img id="imgHugo1" src="img/img1.png" alt="Imagen mia (Hugo Sansegundo)">
+            </div>
+            <div class="presentation2">
+                <h2 id="name">Hugo Sansegundo Costantini</h2>
+                <p>Desarrollador Web y mucho más...</p>
+            </div>
         </div>
     </article>
     <div class="spaceBetween"></div>
     <div class="parallaxLine"></div>
     <div class="spaceBetween"></div>
-    <article class="estudios">
+    <article>
         <h2>Estudios</h2>
-        <div class="estudiosRealizados">
-            <div class="estudioIndividual">
-                <h3 id="TE">Ciclo formativo de grado superior en desarrolo de aplicaciones web</h3>
-                <h4 id="TE">Titulo en 2025</h4>
-                <p id="TE">Estudiadondo en el Institut Tecnologic de Barcelona</p>
+        <div class="glue-grid-estudios">
+            <div class="grid-item">1</div>
+            <div class="grid-item">AAA</div>
+            <div class="grid-item">
+                <h3>Ciclo formativo de grado superior en desarrolo de aplicaciones web</h3>
+                <p>2023-2025</p>
+                <p>Estudiadondo en el Institut Tecnologic de Barcelona</p>
             </div>
-            <div class="estudioIndividual">
-                <h3 id="TE">Batchillerato cientifico tecnologico</h3>
-                <p id="TE">Estudiado en el Institut Caterina Albert</p>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">AAA</div>
+            <div class="grid-item">
+                <h3>Batchillerato cientifico tecnologico</h3>
+                <p>2021-2023</p>
+                <p>Estudiado en el Institut Caterina Albert</p>
             </div>
+            <div class="grid-item">4</div>
         </div> 
     </article>
     <article>
@@ -54,5 +63,15 @@
         <h2>Compeencias transversales</h2>
         <p>adsbkbakhdh</p>
     </article>
+    <div class="glue-grid">
+        <div  class="grid-item">1</div>
+        <div class="grid-item">
+            <img id="imgHugo1" src="img/img1.png" alt="Imagen mia (Hugo Sansegundo)">
+        </div>
+        <div class="grid-item" id="multi-element-grid">
+            Hugo Sansegundo Costantini
+        </div>
+        <div class="grid-item">4</div>
+    </div>
   </body>
 </html>

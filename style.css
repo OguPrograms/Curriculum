@@ -12,6 +12,21 @@ body{
     right: 1%;
     height: 1px;
 }
+/**/
+#multi-element-grid{
+    position: fixed;
+    justify-content: column;
+}
+.glue-grid{
+    display: grid;
+    grid-template-columns: 30% 20% 20% 30%;
+}
+.grid-item{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
 .lineaIdioma{
     border: 1px;
     background-color: black;
@@ -32,27 +47,18 @@ header{
     left: 0px;
     right: 0px;
 }
-.presentacion1{
-    margin-left: 20%;
-    margin-right: 50%;
-}
-.presentacion2{
-    margin-right: 20%;
-    margin-left: 50%;
-}
-.presentation{
-    margin-top: 110px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
 #article1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#presentationBox{
     display: flex;
 }
 #imgHugo1{
     left: 40%;
     width: 45%;
-}*/
+}
 .estudiosRealizados{
     display: flex;
     justify-content: space-evenly;
@@ -62,9 +68,11 @@ header{
     margin: 2%;
     border-radius: 6px;
 }
-#TE{
-    margin-left: 2%;
-    margin-right: 2%;
+h2{
+    text-align: center;
+}
+#name{
+    text-align: start;
 }
 h3, h4{
     text-align: center;
@@ -119,14 +127,4 @@ body::-webkit-scrollbar-thumb {
 }
 .spaceBetween{
     height: 100px;
-}
-.estudios{
-    background-image: url("img/parallexEstudios.jpg");
-    min-height: 3px;
-    border-radius: 2px;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-color: whitesmoke;
-    border-radius: 6px;
 }
